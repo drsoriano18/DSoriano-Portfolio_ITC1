@@ -1,0 +1,611 @@
+/* FOR PROJECTS, EXTRACURRICULAR, EXPERIENCE, SKILLS, GALLERY */
+
+/* FOR PROJECTS */
+
+.projects{
+    display: flex;
+    background-color: none;
+    padding: 15px;
+    margin: auto;
+    margin-top: 80px;
+    width: 90%;
+}
+
+.projects div.prjctlist h2{
+    display: inline-block;
+    text-align: left;
+    font-family: "TASA Orbiter", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin top: 10px;
+    margin-right: 40px;
+    background-color: none;
+    color: black;
+    text-align: justify;
+}
+.projects div.prjctlist p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    line-height: 1.6;
+    color: black;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+.projects div.prjctlist ul{
+    list-style-type: disc;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.projects div.prjctlist li{
+    margin-right: 25px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.projects div.iskochive ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.projects div.iskochive ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.projects div.iskochive img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.projects img:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 10px 8px 10px #245324;
+}
+
+.projects div.prjctlist figcaption{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+/* FOR EXTRACURRICULARS */
+.extracurricular{
+    display: flex;
+    background-color: none;
+    padding: 15px;
+    margin: auto;
+    margin-top: 80px;
+    width: 90%;
+}
+
+.extracurricular div.orgs h2{
+    display: inline-block;
+    text-align: left;
+    font-family: "TASA Orbiter", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin top: 10px;
+    margin-right: 40px;
+    background-color: none;
+    color: black;
+    text-align: justify;
+}
+
+.extracurricular div.orgs p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    line-height: 1.6;
+    color: black;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+.extracurricular img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.extracurricular img:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 10px 8px 10px #245324;
+}
+
+/* FOR EXPERIENCE */
+
+.experience{
+    display: flex;
+    background-color: none;
+    padding: 15px;
+    margin: auto;
+    margin-top: 80px;
+    width: 90%;
+}
+
+.experience div.ojtexp h2{
+    display: inline-block;
+    text-align: left;
+    font-family: "TASA Orbiter", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin top: 10px;
+    margin-right: 40px;
+    background-color: none;
+    color: black;
+    text-align: justify;
+}
+
+.experience div.ojtexp p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    line-height: 1.6;
+    color: black;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+.experience div.ojtexp ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.experience li{
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.experience img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.experience img:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 10px 8px 10px #245324;
+}
+
+
+.experience div.download-resume{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    background-color: white;
+    border: solid 2px #245324;
+    color: black;
+}
+
+a.btn-download {
+    text-decoration: none;
+    color: black;
+}
+
+.experience div.btn-resume .btn-download:visited{
+    text-decoration: none;
+    color: black;
+}
+
+/* FOR SKILLS */
+
+.skills{
+    display: flex;
+    background-color: none;
+    padding: 15px;
+    margin: auto;
+    margin-top: 80px;
+    width: 90%;
+}
+
+.skills h2{
+    display: inline-block;
+    text-align: left;
+    font-family: "TASA Orbiter", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin top: 10px;
+    margin-right: 40px;
+    background-color: none;
+    color: black;
+    text-align: justify;
+}
+
+.skills div.skill-table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-family: "TASA Orbiter", sans-serif;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.skills-content{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 400px;
+    table-layout: fixed;
+}
+
+.skills-content thead tr{
+    background-color: #245324;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.skills-content th, .skills-content td{
+    padding: 10px 10px;
+    width: 50%
+}
+
+.skills-content tbody tr{
+    border: 1px solid black;
+}
+
+.skills-content tbody tr{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.skills-content th,
+.skills-content td:first-child {
+    border-right: 2px solid black;  
+    border-top: 2px solid black;
+}
+
+/* FOR GALLERY */
+
+.gallery{
+    display: flex;
+    background-color: none;
+    padding: 15px;
+    margin: auto;
+    margin-top: 80px;
+    width: 90%;
+}
+
+.gallery div.gal-content{
+}
+
+.gallery div.gal-content h2{
+    display: inline-block;
+    text-align: left;
+    font-family: "TASA Orbiter", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin top: 10px;
+    margin-right: 40px;
+    background-color: none;
+    color: black;
+    text-align: justify;
+}
+
+.gallery div.gal-content h3{
+    display: inline-block;
+    text-align: left;
+    font-family: "TASA Orbiter", sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin top: 10px;
+    margin-right: 40px;
+    background-color: none;
+    color: black;
+    text-align: justify;
+}
+
+.gallery div.gal-content p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    line-height: 1.6;
+    color: black;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+.gallery div.gal-content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.gallery img:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 10px 8px 10px #245324;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+
+  /* proj */
+  .projects {
+    flex-direction: column;
+    width: 95%;
+    margin-top: 70px;
+    padding: 10px;
+  }
+  
+  .projects div.prjctlist h2 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .projects div.prjctlist p {
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .projects div.prjctlist ul {
+    width: 90%;
+    margin: 15px auto;
+  }
+  
+  .projects div.prjctlist li {
+    text-align: left;
+    margin: 10px auto;
+    width: 90%;
+  }
+  
+  .projects div.iskochive ul {
+    flex-direction: column;
+    margin: 10px auto;
+    width: 90%;
+  }
+  
+  .projects div.iskochive ul li {
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .projects div.iskochive img,
+  .projects img {
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+  }
+  
+  /* extracur */
+  .extracurricular {
+    flex-direction: column;
+    width: 95%;
+    margin-top: 70px;
+    padding: 10px;
+  }
+  
+  .extracurricular div.orgs h2 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .extracurricular div.orgs p {
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .extracurricular img {
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+  }
+  
+  /* exp */ 
+  .experience {
+    flex-direction: column;
+    width: 95%;
+    margin-top: 70px;
+    padding: 10px;
+  }
+  
+  .experience div.ojtexp h2 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .experience div.ojtexp p {
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .experience div.ojtexp ul {
+    width: 90%;
+    margin: 15px auto;
+  }
+  
+  .experience li {
+    text-align: left;
+    margin: 10px auto;
+    width: 90%;
+  }
+  
+  .experience img {
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+  }
+  
+  .experience div.download-resume {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  /*  skills */
+  .skills {
+    flex-direction: column;
+    width: 95%;
+    margin-top: 70px;
+    padding: 10px;
+  }
+  
+  .skills h2 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .skills div.skill-table {
+    width: 95%;
+    overflow-x: auto;
+  }
+  
+  .skills-content {
+    min-width: 300px;
+    font-size: 14px;
+  }
+  
+  .skills-content th, 
+  .skills-content td {
+    padding: 8px 5px;
+  }
+  
+  /*  gal */
+  .gallery {
+    flex-direction: column;
+    width: 95%;
+    margin-top: 70px;
+    padding: 10px;
+  }
+  
+  .gallery div.gal-content h2 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .gallery div.gal-content h3 {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .gallery div.gal-content p {
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .gallery div.gal-content img {
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+  }
+}
